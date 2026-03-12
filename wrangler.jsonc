@@ -1,0 +1,27 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "poker-bot",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-03-10",
+	"observability": {
+		"enabled": true
+	},
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"d1_databases": [
+		{
+			"binding": "poker_discord_bot_db",
+			"database_name": "poker-discord-bot-db",
+			"database_id": "387d2bf4-b734-4c51-8a04-226b9c523ad0",
+			"remote": true
+		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "POKER_KV",
+			"id": "ba0a8385e2824f9a88486a0b7ca3008c",
+			"remote": true
+		}
+	]
+}
