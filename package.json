@@ -8,7 +8,7 @@
 		"start": "wrangler dev",
 		"test": "vitest",
 		"cf-typegen": "wrangler types",
-		"register": "npx tsx src/register.ts",
+		"register": "bun run src/register.ts",
 		"typecheck": "tsc --noEmit"
 	},
 	"devDependencies": {

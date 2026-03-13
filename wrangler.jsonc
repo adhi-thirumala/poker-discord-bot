@@ -11,7 +11,7 @@
 	],
 	"d1_databases": [
 		{
-			"binding": "poker_discord_bot_db",
+			"binding": "POKER_DB",
 			"database_name": "poker-discord-bot-db",
 			"database_id": "387d2bf4-b734-4c51-8a04-226b9c523ad0",
 			"remote": true
